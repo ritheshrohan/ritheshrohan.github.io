@@ -68,7 +68,7 @@ position: relative;
 }
 
 .herotext{
-    /*font-family: "Raleway";*/
+    font-family: "Raleway";
   text-align: center;
   color: white;
 }
@@ -129,14 +129,14 @@ position: relative;
 .myDesc{
   font-size: 2em;
   margin-top: 5%;
-  /*font-family: "Raleway";*/
+  font-family: "Raleway";
   color:#fefefe;
   text-align: center;
 }
 
 .abt2Desc{
   font-size: 1.3em;
-  /*font-family: "Raleway";*/
+  font-family: "Raleway";
   color:#fefefe;
   text-align: left;
 }
