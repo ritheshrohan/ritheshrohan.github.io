@@ -29,6 +29,11 @@ portfolioApp.config(['$routeProvider',function($routeProvider){
         controller:'indexController',
         templateUrl:'wrk.html'
     })
+    .when('/workinit',
+    {
+        controller:'indexController',
+        templateUrl:'work1.html'
+    })
     .otherwise({redirectTo:'/home'});
 
 }]);
