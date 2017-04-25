@@ -1,15 +1,14 @@
 @font-face {
     font-family: "Raleway";
-    src: url("Raleway.ttf");
+    src: url("Raleway-Light.ttf");
 }
 
 html,body{
-
 height: 100%;
 overflow-x:hidden;
 background-color: #222125;
-font-family: "Raleway";
-font-weight: 100;
+font-family: "raleway-light";
+font-weight: 100 !important;
 color:#bbb;
 }
 
@@ -38,21 +37,18 @@ color:#bbb;
 }
 /*End of Loader - PACE style */
 
-
 a, a:hover, a:focus{
 color:inherit;
 text-decoration: none;
-
 }
 
 .mainBody{
 min-height: 100%;
 width: 100%;
-
 }
 
 .aboutMe{
-  padding-top: 2.5%;
+padding-top: 2.5%;
 min-height: 100%;
 }
 
@@ -72,7 +68,7 @@ position: relative;
 }
 
 .herotext{
-    font-family: "Raleway";
+    /*font-family: "Raleway";*/
   text-align: center;
   color: white;
 }
@@ -100,7 +96,7 @@ position: relative;
 }
 
 .threesections{
-  font-family: "Raleway";
+  /*font-family: "Raleway";*/
   margin-top: 7%;
   text-align: center;
   color: white;
@@ -133,14 +129,14 @@ position: relative;
 .myDesc{
   font-size: 2em;
   margin-top: 5%;
-  font-family: "Raleway";
+  /*font-family: "Raleway";*/
   color:#fefefe;
   text-align: center;
 }
 
 .abt2Desc{
   font-size: 1.3em;
-  font-family: "Raleway";
+  /*font-family: "Raleway";*/
   color:#fefefe;
   text-align: left;
 }
@@ -161,6 +157,7 @@ position: relative;
     color: white;
 
 }
+
 .glyphicon-chevron-up:hover{
 color: #48AFE3;
 transition: all 0.8s linear;
@@ -190,15 +187,15 @@ a.svg:after {
   border-radius: 0px;
   transition: all 0.3s ease;
 }
+
+
 .btn-success:hover{
     background: #48AFE3;
     border-radius: 0px;
     border:2px solid #48AFE3;
-
 }
 
 /*2nd button*/
-
 
 .btn-success1{
   background: none;
@@ -206,26 +203,33 @@ a.svg:after {
   border-radius: 0px;
   transition: all 0.3s ease;
 }
+
 .btn-success1:hover{
-    background: #8f7b7b;
-    border-radius: 0px;
+
+background: #8f7b7b;
+border-radius: 0px;
 border:2px solid #8f7b7b;
 color:white;
+
 }
 
 /*3rd button*/
 
 .btn-success2{
+
   background: none;
   border:2px solid #8ACA7B;
   border-radius: 0px;
   transition: all 0.3s ease;
+
 }
 .btn-success2:hover{
+
     background: #8ACA7B;
     border-radius: 0px;
 border:2px solid #8ACA7B;
 color:white;
+
 }
 /*4th button*/
 .btn-success3{
