@@ -50,27 +50,6 @@
             font-size: 1.3em;
           }
 
-          .h5botmargin{
-            margin-top: 10%;
-            margin-bottom: 15%;
-          }
-
-          .liftup{
-            
-            margin-bottom: 5%;
-          }
-
-          .boxImageMain{
-            max-height: 200px;
-            border-radius:10px;
-          }
-
-          .smallDisp{
-            display: block;
-          }
-          .smallDispArrow{
-            margin-bottom: 5%;
-          }
     }
 
     /* Extra Small Devices, Phones */
@@ -127,23 +106,7 @@
       }
 
 
-      .h5botmargin{
-        margin-top: 10%;
-            margin-bottom: 15%;
-      }
 
-      .liftup{
-            margin-bottom: 5%;
-          }
 
-    .boxImageMain{
-            max-height: 200px;
-            border-radius:10px;
-          }      
-          .smallDisp{
-            display: block;
-          }
-          .smallDispArrow{
-            margin-bottom: 5%;
-          }    
+
     }
