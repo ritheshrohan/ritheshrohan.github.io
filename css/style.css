@@ -10,6 +10,7 @@ overflow-x:hidden;
 background-color: #222125;
 font-family: "Raleway";
 font-weight: 100;
+color:#bbb;
 }
 
 /*Loader - PACE style*/
@@ -282,4 +283,58 @@ color:#ddd;
   color: #333;
   margin-bottom: 0px;
   margin-top: 15px;
+}
+
+.boxImage{
+  max-height: 200px;
+  border-radius:10px;
+}
+
+
+.boxImageMain{
+  max-height: 300px;
+  border-radius:10px;
+}
+
+.liftup{
+  transition: all 0.3s ease-in-out;
+}
+
+.liftup:hover{
+transform: translateY(-7px);
+  
+
+}
+
+.shakeAnimate:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(3px, 0, 0);
+  }
+}
+
+.smallDisp{
+  display: none;
+}
+
+.workrow{
+  margin-top: 5%; margin-left: 2%; margin-right: 2%;
 }
